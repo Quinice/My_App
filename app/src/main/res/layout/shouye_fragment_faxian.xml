@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFFFFF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <HorizontalScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scrollbars="none"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:divider="@drawable/btns_line"
+                android:showDividers="middle"
+                >
+
+                <Button
+                    android:layout_width="110dp"
+                    android:layout_height="70dp"
+                    android:text="专题"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="25sp"
+                    android:textColor="#FFF"
+                    android:background="@drawable/btn_bg_select1"/>
+                <Button
+                    android:layout_width="110dp"
+                    android:layout_height="70dp"
+                    android:text="作者"
+                    android:textSize="25sp"
+                    android:textColor="#FFF"
+                    android:background="@drawable/btn_bg_select2"/>
+                <Button
+                    android:layout_width="110dp"
+                    android:layout_height="70dp"
+                    android:text="活动"
+                    android:textColor="#FFF"
+                    android:background="@drawable/btn_bg_select3"
+                    android:textSize="25sp"/>
+                <Button
+                    android:layout_width="110dp"
+                    android:layout_height="70dp"
+                    android:text="Demo"
+                    android:textColor="#FFF"
+                    android:background="@drawable/btn_bg_select4"
+                    android:textSize="25sp"/>
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="热门排行"
+            android:textColor="#000"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginBottom="7dp"
+            android:textSize="20sp"/>
+        <HorizontalScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scrollbars="none"
+            >
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:divider="@drawable/btns_line"
+                android:showDividers="middle">
+
+                <LinearLayout
+                    android:layout_width="250dp"
+                    android:layout_height="300dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="#888888"/>
+
+                <LinearLayout
+                    android:layout_width="250dp"
+                    android:layout_height="300dp"
+                    android:background="#C4A93C" />
+
+                <LinearLayout
+                    android:layout_width="250dp"
+                    android:layout_height="300dp"
+                    android:background="#B32BD5"/>
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="热门专题"
+            android:textColor="#000"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="12dp"
+            android:textSize="20sp"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_margin="7dp"
+            android:src="@drawable/rollpager_image4"
+            android:scaleType="centerCrop"
+            android:background="@drawable/faxian_image_bg"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="推荐主题"
+            android:textColor="#000"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginBottom="7dp"
+            android:textSize="20sp"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_view3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+    </LinearLayout>
+</ScrollView>

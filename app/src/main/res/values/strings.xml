@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">绿植汇</string>
+    <string name="title_home">首页</string>
+    <string name="title_dashboard">庄园</string>
+    <string name="title_notifications">创投</string>
+    <string name="title_wode">我的</string>
+    <string name="title_activity_tab_ex2">Tab_ex2Activity</string>
+    <string name="tab_text_1">推荐</string>
+    <string name="tab_text_2">特写</string>
+    <string name="tab_text_3">消费</string>
+    <string name="tab_text_4">干货</string>
+    <string name="rg_shouye">首页</string>
+    <string name="title_activity_users_login">Signin</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+</resources>

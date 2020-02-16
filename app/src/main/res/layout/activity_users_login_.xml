@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UsersLogin_Activity"
+    android:orientation="vertical"
+    >
+
+    <EditText
+        android:id="@+id/login_id_et"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:hint="用户名"
+        android:inputType="text"
+        android:maxLines="1"
+        android:layout_marginTop="120dp"
+        android:background="@drawable/edittext_user_bg"
+        android:drawableLeft="@mipmap/login_usersid2"
+        android:drawablePadding="5dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        />
+    <EditText
+        android:id="@+id/login_password_et"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:hint="密码"
+        android:maxLines="1"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:inputType="textPassword"
+        android:selectAllOnFocus="true"
+        android:background="@drawable/edittext_user_bg"
+        android:drawableLeft="@mipmap/user_passwodr2"
+        android:drawablePadding="5dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        >
+        <Button
+            android:id="@+id/login_users_bt"
+            android:layout_width="100dp"
+            android:layout_centerInParent="true"
+            android:layout_height="45dp"
+            android:layout_marginTop="30dp"
+            android:text="登陆"
+            android:textSize="20sp"
+            />
+        <TextView
+            android:id="@+id/register_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="前往注册"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:clickable="true"
+            android:layout_alignBottom="@id/login_users_bt" />
+
+    </RelativeLayout>
+
+</LinearLayout>

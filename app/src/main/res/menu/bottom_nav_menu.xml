@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/tab_shouye_image"
+        android:title="@string/title_home"
+        />
+
+    <item
+        android:id="@+id/navigation_dashboard"
+        android:icon="@drawable/tab_zhuangyuan_image"
+        android:title="@string/title_dashboard" />
+
+    <item
+        android:id="@+id/navigation_notifications"
+        android:icon="@drawable/tab_chuangtou_image"
+        android:title="@string/title_notifications" />
+    <item
+        android:id="@+id/navigation_wode"
+        android:icon="@drawable/tab_wode_image"
+        android:title="@string/title_wode" />
+
+</menu>
